@@ -1,4 +1,6 @@
-main.c:77:5:main	8	static
-main.c:127:6:HAL_TIM_PeriodElapsedCallback	16	static
-main.c:150:6:SystemClock_Config	72	static
-main.c:205:6:_Error_Handler	16	static
+main.c:338:5:__io_putchar	24	static
+main.c:348:5:_write	32	static
+main.c:367:5:main	16	static
+main.c:426:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:451:6:SystemClock_Config	72	static
+main.c:506:6:_Error_Handler	16	static
