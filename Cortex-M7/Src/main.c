@@ -52,14 +52,15 @@
 
 
 //#define milvintequatro
-#define trintaedois
-//#define quinhentosedoze
+//#define trintaedois
+#define quinhentosedoze
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
+
+/* USER CODE BEGIN PV */
 int FFT_result; //Amount of FFTs processed on 1s
 int FFT_old;
-/* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE END PV */
@@ -490,8 +491,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim2);//Start 1s timer
 
-
-
 #ifdef milvintequatro
   uint32_t ifftFlag = 0;
   uint32_t doBitReverse = 1;
@@ -627,6 +626,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 	  printf("FFT/s: %i \r\n", (FFT_result-FFT_old));
 	  FFT_old = FFT_result;
+
   }
 
   /* USER CODE END Callback 1 */
