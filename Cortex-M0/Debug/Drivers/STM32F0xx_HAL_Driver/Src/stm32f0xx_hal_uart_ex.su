@@ -1,0 +1,9 @@
+stm32f0xx_hal_uart_ex.c:182:19:HAL_RS485Ex_Init	32	static
+stm32f0xx_hal_uart_ex.c:257:19:HAL_LIN_Init	16	static
+stm32f0xx_hal_uart_ex.c:353:13:HAL_UARTEx_WakeupCallback	16	static
+stm32f0xx_hal_uart_ex.c:402:19:HAL_UARTEx_StopModeWakeUpSourceConfig	40	static
+stm32f0xx_hal_uart_ex.c:458:19:HAL_UARTEx_EnableStopMode	16	static
+stm32f0xx_hal_uart_ex.c:484:19:HAL_UARTEx_DisableStopMode	16	static
+stm32f0xx_hal_uart_ex.c:519:19:HAL_MultiProcessorEx_AddressLength_Set	16	static
+stm32f0xx_hal_uart_ex.c:552:19:HAL_LIN_SendBreak	16	static
+stm32f0xx_hal_uart_ex.c:593:13:UARTEx_Wakeup_AddressConfig	24	static

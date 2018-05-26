@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+<packages/>
+<device Dclock="48000000" Dcore="Cortex-M0" DcoreVersion="r0p0" Dendian="Little-endian" Dfamily="STM32F0 Series" Dfpu="NO_FPU" Dmpu="NO_MPU" Dname="STM32F072RB" DsubFamily="STM32F072" Dvariant="STM32F072RBTx" Dvendor="STMicroelectronics:13" Pname="">
+<url>http://www.keil.com/dd2/st/stm32f072rbtx</url>
+<package name="STM32F0xx_DFP" url="http://www.keil.com/pack/" vendor="Keil" version="2.0.0"/>
+</device>
+<toolchain Tcompiler="GCC" Toutput="exe"/>
+<components>
+<component Cclass="CMSIS" Cgroup="DSP" Cvendor="ARM" Cversion="1.5.2">
+<package name="CMSIS" url="http://www.keil.com/pack/" vendor="ARM" version="5.3.0"/>
+<file category="doc" name="CMSIS/Documentation/DSP/html/index.html"/>
+<file category="header" name="CMSIS/Include/arm_math.h"/>
+<file category="library" condition="CM0_LE_GCC" name="CMSIS/Lib/GCC/libarm_cortexM0l_math.a" src="CMSIS/DSP_Lib/Source/GCC"/>
+</component>
+</components>
+<apis/>
+</configuration>
