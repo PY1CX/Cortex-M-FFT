@@ -1,8 +1,15 @@
 # Cortex-M-FFT
 Testing the FFT performance of Cortex-M microcontrollers on ST Nucleo boards
 
+Results for arm_cfft_f32 function:
 
-How to link CMSIS-PACK (CMSIS-DSP) with projects generated from STM32CubeMX in Atollic TrueStudio.
+Core | 32 points | 512 points | 1024 points | Performace gain in % | 
+:---: | :---: | :---: | :---: | :---: |
+Cortex-M0 | 637 | 21 | 9 | 0% | 
+Cortex-M3 | 2215 | 72 | 31 | 345% |
+Cortex-M7 | 53499 | 2662 | 1021| 3135% |
+
+## How to link CMSIS-PACK (CMSIS-DSP) with projects generated from STM32CubeMX in Atollic TrueStudio.
 
 With Atollic TrueStudio open:
 File -> C Project -> CMSIS C/C++ Project -> Atollic ARM Tools (use a mock-up name for this project).
