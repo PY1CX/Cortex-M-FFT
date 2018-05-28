@@ -44,4 +44,4 @@ C Linker - Library Search Path:
 
 Add: "${cmsis_pack_root}/ARM/CMSIS/5.3.0/CMSIS/Lib/GCC"
 
-Remember, you NEED to install CMSIS Packs on Atollic!
+Remember, you NEED to install CMSIS Packs on Atollic! A tip to see if everything went smooth: Ctrl+Click the arm_math.h include line, if you done everything right you should open the file.      
