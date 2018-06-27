@@ -7,7 +7,10 @@ Core | 32 points | 512 points | 1024 points | Performace gain in % |
 :---: | :---: | :---: | :---: | :---: |
 Cortex-M0 | 637 | 21 | 9 | 0% | 
 Cortex-M3 | 2215 | 72 | 31 | 345% |
-Cortex-M7 | 53499 | 2662 | 1021| 3135% |
+Cortex-M4 | 133460 | 7113 | 2924 | 8445%
+Cortex-M7 | 160485 | 8038 | 3108 | 113% |
+
+Yes, the difference between non-FPU and FPU-present cores blew my mind when I saw the results. 
 
 ## How to link CMSIS-PACK (CMSIS-DSP) with projects generated from STM32CubeMX in Atollic TrueStudio.
 
