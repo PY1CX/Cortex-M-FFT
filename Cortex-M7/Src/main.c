@@ -51,9 +51,9 @@
 #include <string.h>
 
 
-//#define milvintequatro
+#define milvintequatro
 //#define trintaedois
-#define quinhentosedoze
+//#define quinhentosedoze
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
