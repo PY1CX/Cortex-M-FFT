@@ -8,9 +8,22 @@ Core | 32 points | 512 points | 1024 points | Performace gain in % |
 Cortex-M0 | 637 | 21 | 9 | 0% | 
 Cortex-M3 | 2215 | 72 | 31 | 345% |
 Cortex-M4 | 133460 | 7113 | 2924 | 8445%
-Cortex-M7 | 160485 | 8038 | 3108 | 113% |
+Cortex-M7 With Cache Disabled | 160485 | 8038 | 3108 | 113% |
+Cortex-M7 With Cache Enabled | 490595 | 24145 | 9807 | 307% |
 
 Yes, the difference between non-FPU and FPU-present cores blew my mind when I saw the results. 
+
+## How to enable the cache on STM32H7 MCU:
+
+Just enable the cache with the following code, before the function HAL_Init();
+
+```
+/* Enable I-Cache */
+SCB_EnableICache();
+
+/* Enable D-Cache */
+SCB_EnableDCache();
+```
 
 ## How to link CMSIS-PACK (CMSIS-DSP) with projects generated from STM32CubeMX in Atollic TrueStudio.
 
